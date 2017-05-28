@@ -2,6 +2,7 @@
 <html lang="en">
 
 <head>
+    <script type="text/javascript"> var beforeload = (new Date()).getTime(); </script>
 
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -175,11 +176,17 @@
                             <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github" aria-hidden="true"></i> I'm Open Source</a>
                         </li>
                     </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. Image by <a target="_blank" href="https://twitter.com/spacenstars">@spacenstars</a>. Made with <i style="color: purple" class="fa fa-heart"></i>.</p>
+                    <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. Image by <a target="_blank" href="https://twitter.com/spacenstars">@spacenstars</a>. Made with <i style="color: purple" class="fa fa-heart"></i>.
+                        <i id="loadTime"> </i></p>
                 </div>
             </div>
         </div>
     </footer>
+
+    <script type="text/javascript">
+        seconds = ((new Date()).getTime()-beforeload) / 1000;
+        document.getElementById("loadTime").innerHTML = 'Page loaded in ' + seconds + ' seconds.';
+    </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
