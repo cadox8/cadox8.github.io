@@ -11,9 +11,7 @@
     <meta name="theme-color" content="#B21EC9">
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/flat-ui.min.css" rel="stylesheet">
-
+    <link href="css/bulma.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
 
@@ -21,130 +19,117 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     <title>Cadox8 ~ Index</title>
 
 </head>
 
-<body id="body">
+<body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
-        <div class="container fluid">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="#"><i style="color: greenyellow" class="fa fa-home" aria-hidden="true"></i> Cadox8</a>
+    <nav class="nav has-shadow" id="top">
+        <div class="container">
+            <div class="nav-left">
+                <div class="nav-left">
+                    <a class="nav-item is-tab" href=""> Cadox8</a>
+                </div>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="#about"><i style="color: violet" class="fa fa-address-card-o" aria-hidden="true"></i> About</a>
-                    </li>
-                    <li>
-                        <a href="projects.html"><i style="color: orange" class="fa fa-bolt" aria-hidden="true"></i> Projects</a>
-                    </li>
-                    <!--<li>
-                        <a href="#"><i class="fa fa-download" aria-hidden="true"></i> Downloads</a>
-                    </li>-->
-                    <li>
-                        <a target="_blank" href="http://projectalpha.es/deud"><i style="color: dodgerblue" class="fa fa-external-link" aria-hidden="true"></i> Deud</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://projectalpha.es"><i style="color: dodgerblue" class="fa fa-external-link" aria-hidden="true"></i> ProjectAlpha</a>
-                    </li>
-                </ul>
+            <span id="nav-toggle" class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id='nav-menu' class="nav-right nav-menu">
+                <a class="nav-item is-tab is-active" href="">Home</a>
+                <a class="nav-item is-tab" href="#social">Social</a>
+                <a class="nav-item is-tab" href="#about">About</a>
+                <a class="nav-item is-tab" href="projects.html">Projects</a>
+                <a class="nav-item is-tab" href="https://projectalpha.es/deud" target="_blank">Deud</a>
             </div>
         </div>
     </nav>
 
     <!-- Header -->
-    <div class="intro-header">
-        <div class="container">
+    <section class="hero is-dark">
+        <div class="hero-body">
+            <div class="container">
+                <figure class="image is-256x256 is-circle">
+                    <img src="img/cadox.png" alt="Cadox8">
+                </figure>
+                <h1 class="title is-2 centered" style="margin-bottom: 0">
+                    <strong>Cadox8</strong>
+                </h1>
+                <h1 class="title is-3 centered" style="margin-top: 0">
+                    Iván Rica
+                </h1>
+                <h2 class="subtitle is-5 centered" style="margin-bottom: 0">
+                    Developer and Web Designer. I love space and purple things.
+                </h2>
+                <h2 class="subtitle is-5 centered" style="margin-top: 0">
+                    Paladins, Maeve, Ready Player One & Fablehaven <span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span>
+                </h2>
+            </div>
+        </div>
+    </section>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <div class="intro-message">
-                        <h1>Cadox8</h1>
-                        <h4>Iván Rica</h4>
-                        <h5>Developer and Web Designer. I love space.</h5>
-                        <hr class="intro-divider">
-                        <ul class="list-inline intro-social-buttons">
-                            <li>
-                                <a href="https://twitter.com/cadox8" target="_blank" class="btn btn-info btn-lg"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
-                            </li>
-                            <li>
-                                <a href="https://github.com/cadox8" target="_blank" class="btn btn-inverse btn-lg"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                            </li>
-                            <li>
-                                <a href="https://keybase.io/cadox8" target="_blank" class="btn btn-warning btn-lg"><i class="fa fa-key"></i> <span class="network-name">Keybase</span></a>
-                            </li>
-                            <li>
-                                <a href="https://player.me/cadox8" target="_blank" class="btn btn-primary btn-lg"><i class="fa fa-gamepad"></i> <span class="network-name">Player.me</span></a>
-                            </li>
-                            <li>
-                                <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="btn btn-danger btn-lg"><i class="fa fa-television"></i> <span class="network-name">MyAnimeList</span></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
+    <!-- Social -->
+    <section id="social" class="section" style="margin-bottom: -40px">
+        <div class="container">
+            <h2 class="title is-2 centered" style="margin-top: -30px">Social</h2>
+            <hr class="intro-divider">
+            <p class="centered">Hey, take a look on my social accounts!</p><br>
+
+            <div class="centered">
+                <a href="https://twitter.com/cadox8" target="_blank" class="button is-info"><i class="fa fa-twitter fa-fw"></i> <span class="network-name">Twitter</span></a>
+                <a href="https://github.com/cadox8" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                <a href="https://keybase.io/cadox8" target="_blank" class="button is-warning"><i class="fa fa-key"></i> <span class="network-name">Keybase</span></a>
+                <a href="https://player.me/cadox8" target="_blank" class="button is-primary"><i class="fa fa-gamepad"></i> <span class="network-name">Player.me</span></a>
+                <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="button is-danger"><i class="fa fa-television"></i> <span class="network-name">MyAnimeList</span></a>
             </div>
 
+
+
         </div>
-    </div>
+    </section>
 
     <!-- About -->
-    <div id="about" class="container">
-        <div class="row">
-            <div class="col-lg-12">
-                <h3 style="text-align:center">About</h3>
-
-                <hr class="intro-divider">
-
-                <div class="col-lg-4 col-lg-offset-2">
-                    <p style="text-align:justify; font-size: 16px">
-                        Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a target="_blank" href="https://spigot.org">Spigot</a> and some webs for fun.
-                        <br/>
-                        The best way to contact me is via <a target="_blank" href="https://twitter.com/cadox8">Twitter</a> . I'm also on <a href="mailto:cadox8@gmail.com">my email</a>.
-                    </p>
+    <section id="about" class="section">
+        <div class="container">
+            <h2 class="title is-2 centered" style="margin-top: -30px">About</h2>
+            <hr class="intro-divider">
+            <div class="columns">
+                <div class="column is-2"></div>
+                <div class="column is-4 justify">
+                    Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a target="_blank" href="https://spigot.org">Spigot</a> and some webs for fun.
+                    <br/>
+                    The best way to contact me is via <a target="_blank" href="https://twitter.com/cadox8">Twitter</a> . I'm also on <a href="mailto:cadox8@gmail.com">my email</a>.
                 </div>
-                <div class="col-lg-4">
-                    <p style="text-align:justify; font-size: 16px">
-                        I'm currently working on <a target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends and
-                        <a target="_blank" href="https://github.com/ProjectAlphaES/AdVenture-Capitalist">AdVenture-Capitalist</a>,
-                        a Minecraft version of the phone/desktop game by <a target="_blank" href="http://hyperhippo.ca">HyperHippo</a>.
-                        <br/>
-                        I'm also developing a game called <a target="_blank" href="https://projectalpha.es/deud">Deud</a>.
-                    </p>
+                <div class="column is-4 justify">
+                    I'm currently working on <a target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends and
+                    <a target="_blank" href="https://minley.es">Minley Network</a>, a future Spanish Minecraft network.
+                    <br/>
+                    I'm also developing a game called <a target="_blank" href="https://projectalpha.es/deud">Deud</a>.
                 </div>
             </div>
-
+            <div class="columns">
+                <div class="column is-2"></div>
+                <div class="column is-8">
+                    I manage an <strong>open source</strong> project which store public data from Spain to use it easily by everyone called <a href="http://datosalpublico.github.io">Datos al Público (DAP)</a>.
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github" aria-hidden="true"></i> I'm Open Source</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. Image by <a target="_blank" href="https://twitter.com/spacenstars">@spacenstars</a>. Made with <i style="color: purple" class="fa fa-heart"></i>.
-                        <i id="loadTime"> </i></p>
+            <div class="columns">
+                <div class="column is-10">
+                    <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><span class="icon is-small"><i style="color: black;" class="fa fa-github"></i></span> I'm Open Source</a>
+                    <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. <span class="icon is-small"><i style="color: blue" class="fa fa-code"></i></span> with <span class="icon is-small"><i style="color: purple" class="fa fa-heart"></i></span> by Cadox8.
+                    <p class="loadInfo" id="loadTime"> Getting Time...</p>
+                </div>
+                <div class="column">
+                    <a href="#top"><span class="icon is-small"><i style="color: black;" class="fa fa-arrow-up"></i></span> Go Top</a>
                 </div>
             </div>
         </div>
@@ -152,14 +137,14 @@
 
     <script type="text/javascript">
         seconds = ((new Date()).getTime()-beforeload) / 1000;
-        document.getElementById("loadTime").innerHTML = 'Page loaded in ' + seconds + ' seconds.';
+        document.getElementById("loadTime").innerHTML = '<i class="fa fa-clock-o"></i> Page loaded in ' + seconds + ' seconds.';
     </script>
 
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <!-- Bootstrap -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/custom.js"></script>
 </body>
 
 </html>

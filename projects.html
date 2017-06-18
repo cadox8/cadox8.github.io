@@ -11,8 +11,7 @@
     <meta name="theme-color" content="#B21EC9">
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/flat-ui.min.css" rel="stylesheet">
+    <link href="css/bulma.css" rel="stylesheet">
 
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
@@ -21,13 +20,6 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-    <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-    <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
     <title>Cadox8 ~ Projects</title>
 
 </head>
@@ -35,153 +27,101 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-        <div class="container topnav">
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="./"><i style="color: greenyellow" class="fa fa-home" aria-hidden="true"></i> Cadox8</a>
+    <nav class="nav has-shadow" id="top">
+        <div class="container">
+            <div class="nav-left">
+                <div class="nav-left">
+                    <a class="nav-item is-tab" href="./"> Cadox8</a>
+                </div>
             </div>
-
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav navbar-right">
-                    <li>
-                        <a href="./"><i style="color: greenyellow" class="fa fa-home" aria-hidden="true"></i> Home</a>
-                    </li>
-                    <li class="active">
-                        <a href="#"><i style="color: orange" class="fa fa-bolt" aria-hidden="true"></i> Projects</a>
-                    </li>
-                    <!--<li>
-                        <a href="#"><i class="fa fa-download" aria-hidden="true"></i> Downloads</a>
-                    </li>-->
-                    <li>
-                        <a target="_blank" href="http://projectalpha.es/deud"><i style="color: dodgerblue" class="fa fa-external-link" aria-hidden="true"></i> Deud</a>
-                    </li>
-                    <li>
-                        <a target="_blank" href="http://projectalpha.es"><i style="color: dodgerblue" class="fa fa-external-link" aria-hidden="true"></i> ProjectAlpha</a>
-                    </li>
-                </ul>
+            <span id="nav-toggle" class="nav-toggle">
+                <span></span>
+                <span></span>
+                <span></span>
+            </span>
+            <div id='nav-menu' class="nav-right nav-menu">
+                <a class="nav-item is-tab" href="./">Home</a>
+                <a class="nav-item is-tab is-active" href="">Projects</a>
+                <a class="nav-item is-tab" href="https://projectalpha.es/deud" target="_blank">Deud</a>
             </div>
         </div>
     </nav>
 
 
     <!-- Projects -->
-    <div class="container">
-        <div class="row">
-            <br> <!-- Fixed -->
-            <div class="col-lg-12">
-                <h3 class="page-header" style="text-align:center">Projects</h3>
+    <section class="section">
+        <div class="container">
+            <h1 class="title is-2 centered" style="margin-top: -30px">Projects</h1>
+            <hr class="intro-divider">
+            <div class="columns">
+                <div class="column centered">
+                    <h1 class="title is-4">LoM</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Recreation of the popular game of Riot Games called League of Legends in Minecraft</h2>
+                    <a href="https://github.com/cadox8/LOM" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </div>
+                <div class="column centered">
+                    <h1 class="title is-4">UnderGames (FEM)</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">It's a server in itself. Project together with <a href="https://twitter.com/Cadiducho">Cadiducho</a> for a Spanish group of youtubers called L3TCRAFT.</h2>
+                    <a href="https://github.com/cadiducho/FEM" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </div>
+                <div class="column centered">
+                    <h1 class="title is-4">Social GUI</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">SocialGUI is a plugin where the users can add link to differents webs without spaming the chat.</h2>
+                    <a href="https://spigotmc.org/resources/socialgui.26668/" target="_blank" class="button is-warning"><span class="network-name">Spigot</span></a>
+                    <a href="https://github.com/cadox8/SocialGUI" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </div>
             </div>
 
-            <div class="col-md-4">
-                <h4 style="text-align:center">LoM</h4>
-                <p style="text-align:center">
-                    League Of Legends in Minecraft
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#ff4500'> In Development</span>
-                    <br>
-                    <a href="https://github.com/cadox8/LoM" target="_blank" class="btn btn-inverse">Github</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4 style="text-align:center">UnderGames (FEM)</h4>
-                <p style="text-align:center">
-                    It's a server in itself. Project together with <a href="https://cadiducho.com" target="_blank">Cadiducho</a> for a Spanish group of youtubers called L3TCRAFT.
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#006400'> Released</span>
-                    <br>
-                    <a href="https://github.com/Cadiducho/FEM" target="_blank" class="btn btn-inverse">Github</a>
-                </p>
-            </div>
-            <div class="col-md-4">
-                <h4 style="text-align:center">SocialGUI</h4>
-                <p style="text-align:center">
-                    SocialGUI is a plugin where the users can add link to differents webs without spaming the chat.
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#204d74'> Updating</span>
-                    <br>
-                    <a href="https://github.com/cadox8/SocialGUI" target="_blank" class="btn btn-inverse">Github</a>
-                    <a href="https://www.spigotmc.org/resources/socialgui.26668/" target="_blank" class="btn btn-warning">Spigot</a>
-                </p>
+            <div class="columns">
+                <div class="column centered">
+                    <h1 class="title is-4">AdVenture-Capitalist</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">A minecraft version of AdVenture Capitalist game</h2>
+                    <a href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </div>
+                <div class="column centered">
+                    <h1 class="title is-4">ProjectAlpha's Web</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Custom website for ProjectAlphaDevs team using Bootstrap</h2>
+                    <a href="https://projectalpha.es" target="_blank" class="button is-danger"><span class="network-name">Web</span></a>
+                </div>
+                <div class="column centered">
+                    <h1 class="title is-4">Cadox8's Web</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Hey, you're in this web! This web was made using <a href="http://bulma.io">Bulma</a> and by Cadox8</h2>
+                    <a href="https://spigotmc.org/resources/socialgui.26668/" target="_blank" class="button is-warning"><span class="network-name">Spigot</span></a>
+                    <a href="https://github.com/cadox8/SocialGUI" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </div>
             </div>
 
-            <!-- Next Line (2) -->
-
-            <div class="col-md-4">
-                <h4 style="text-align:center">AdVenture-Capitalist</h4>
-                <p style="text-align:center">
-                    A minecraft version of AdVenture Capitalist game
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#ff4500'> In Development</span>
-                    <br>
-                    <a href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" target="_blank" class="btn btn-inverse">Github</a>
-                </p>
+            <div class="columns">
+                <div class="column centered">
+                    <h1 class="title is-4">Harry Potter</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Recreation of Harry Potter's word in Minecraft</h2>
+                    <a href="https://github.com/cadox8/HarryPotter" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+                </div>
+                <div class="column centered">
+                    <h1 class="title is-4">Deud</h1>
+                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Java Game following the style of 80's games.</h2>
+                    <a href="https://projectalpha.es/deud" target="_blank" class="button is-danger"><span class="network-name">Web</span></a>
+                </div>
+                <div class="column centered"></div>
             </div>
-            <div class="col-md-4">
-                <center><h4>ProjectAlpha</h4>
-                    Custom web for ProjectAlpha
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#006400'> Released</span>
-                    <br>
-                    <a href="https://projectalpha.es" target="_blank" class="btn btn-purple">Web</a>
-                </center>
-            </div>
-            <div class="col-md-4">
-                <h4 style="text-align:center">Cadox8's Web</h4>
-                <p style="text-align:center">
-                    Hey, you are in this web!
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#006400'> Released</span>
-                    <br>
-                    <a href="https://github.com/cadox8/cadox8.github.io" target="_blank" class="btn btn-inverse">Github</a>
-                </p>
-            </div>
-
         </div>
+    </section>
 
-        <!-- Next Line (3) -->
 
-        <div class="row">
-            <div class="col-md-4">
-                <h4 style="text-align:center">HarryPotter</h4>
-                <p style="text-align:center">
-                    Harry Potter in Minecraft
-                    <br>
-                    <i class="fa fa-wrench" aria-hidden="true"></i>
-                    Status: <span style='color:#8b0000'> Stopped</span>
-                    <br>
-                    <a href="https://github.com/cadox8/HarryPotter" target="_blank" class="btn btn-inverse">Github</a>
-                </p>
-            </div>
-
-        </div>
-    </div>
 
     <br>  <!-- Fix Footer -->
 
     <!-- Footer -->
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-lg-12">
-                    <ul class="list-inline">
-                        <li>
-                            <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github" aria-hidden="true"></i> I'm Open Source</a>
-                        </li>
-                    </ul>
-                    <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. Image by <a target="_blank" href="https://twitter.com/spacenstars">@spacenstars</a>. Made with <i style="color: purple" class="fa fa-heart"></i>.
-                        <i id="loadTime"> </i></p>
+            <div class="columns">
+                <div class="column is-10">
+                    <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><span class="icon is-small"><i style="color: black;" class="fa fa-github"></i></span> I'm Open Source</a>
+                    <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. <span class="icon is-small"><i style="color: blue" class="fa fa-code"></i></span> with <span class="icon is-small"><i style="color: purple" class="fa fa-heart"></i></span> by Cadox8.
+                    <p class="loadInfo" id="loadTime"> Getting Time...</p>
+                </div>
+                <div class="column">
+                    <a href="#top"><span class="icon is-small"><i style="color: black;" class="fa fa-arrow-up"></i></span> Go Top</a>
                 </div>
             </div>
         </div>
@@ -189,23 +129,13 @@
 
     <script type="text/javascript">
         seconds = ((new Date()).getTime()-beforeload) / 1000;
-        document.getElementById("loadTime").innerHTML = 'Page loaded in ' + seconds + ' seconds.';
+        document.getElementById("loadTime").innerHTML = '<i class="fa fa-clock-o"></i> Page loaded in ' + seconds + ' seconds.';
     </script>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
-    <!-- Bootstrap Core JavaScript -->
-    <script src="js/bootstrap.min.js"></script>
-
-
-<!-- Status Colors
-<span style='color:#ff4500'> In Development</span>
-<span style='color:#8b0000'> Stopped</span>
-<span style='color:#006400'> Released</span>
-<span style='color:#204d74'> Updating</span>
-<span style='color:#8A0886'> Secret</span>
--->
-
+    <!-- Custom JavaScript -->
+    <script src="js/custom.js"></script>
 
 </body>
 
