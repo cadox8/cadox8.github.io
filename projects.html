@@ -27,22 +27,26 @@
 <body>
 
     <!-- Navigation -->
-    <nav class="nav has-shadow" id="top">
-        <div class="container">
-            <div class="nav-left">
-                <div class="nav-left">
-                    <a class="nav-item is-tab" href="./"> Cadox8</a>
-                </div>
+    <nav class="navbar is-colored is-transparent" id="top">
+        <div class="navbar-brand">
+            <div class="navbar-burger burger" data-target="navMenu">
+                <span></span>
+                <span></span>
+                <span></span>
             </div>
-            <span id="nav-toggle" class="nav-toggle">
-                <span></span>
-                <span></span>
-                <span></span>
-            </span>
-            <div id='nav-menu' class="nav-right nav-menu">
-                <a class="nav-item is-tab" href="./">Home</a>
-                <a class="nav-item is-tab is-active" href="">Projects</a>
-                <a class="nav-item is-tab" href="http://cadox8.me/Deud" target="_blank">Deud</a>
+        </div>
+
+        <div id="navMenu" class="navbar-menu">
+            <div class="navbar-start">
+                <p class="navbar-item is-hidden-mobile"></p>
+                <a class="navbar-item" href=""> Cadox8</a>
+            </div>
+
+            <div class="navbar-end">
+                <a class="nav-item" href="./">Home</a>
+                <a class="nav-item" href="">Projects</a>
+                <a class="nav-item" href="http://cadox8.me/Deud" target="_blank">Deud</a>
+                <p class="navbar-item is-hidden-mobile"></p>
             </div>
         </div>
     </nav>
@@ -134,7 +138,7 @@
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Custom JavaScript -->
-    <script src="js/custom.js"></script>
+    <script src="js/bulma.js"></script>
 
 </body>
 
