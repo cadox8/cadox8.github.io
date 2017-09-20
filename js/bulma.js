@@ -16,13 +16,5 @@ document.addEventListener('DOMContentLoaded', function () {
     }
 });
 
-function copyToClipboard(element) {
-    var $temp = $("<input>");
-    $("body").append($temp);
-    $temp.val($(element).text()).select();
-    document.execCommand("copy");
-    $temp.remove();
-}
-
 seconds = ((new Date()).getTime()-beforeload) / 1000;
-document.getElementById("loadTime").innerHTML = '<span class="icon is-small"><i class="fa fa-clock-o"></i></span> Página cargada en ' + seconds + ' segundos';
+document.getElementById("loadTime").innerHTML = '<span class="icon is-small"><i class="fa fa-lg fa-clock-o"></i></span> Page loaded in ' + seconds + ' seconds';
