@@ -9,9 +9,10 @@
     font-size: 11px;
 }
 
-.image.is-profile img {
+.image.is-profile img{
     height: 256px;
     width: 256px;
+
     display: block;
     margin: 0 auto;
     border-radius: 50%;
