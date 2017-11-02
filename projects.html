@@ -2,8 +2,6 @@
 <html lang="en">
 
 <head>
-    <script type="text/javascript"> var beforeload = (new Date()).getTime(); </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -11,130 +9,98 @@
     <meta name="theme-color" content="#B21EC9">
 
     <!-- Bootstrap Core CSS -->
-    <link href="css/bulma.css" rel="stylesheet">
-
+    <link href="css/beauter.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="http://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <title>Cadox8 ~ Java Projects</title>
+    <title>Cadox8 ~ Projects</title>
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar is-colored is-transparent" id="top">
-        <div class="navbar-brand">
-            <p class="navbar-item is-hidden-mobile"></p>
-            <a class="navbar-item" href=""> Cadox8</a>
-            <div class="navbar-burger burger" data-target="navMenu">
-                <span></span>
-                <span></span>
-                <span></span>
+    <ul class="topnav" id="navbar">
+        <li><a href="index.html" class="brand">Cadox8</a></li>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="" class="active">Projects</a></li>
+        <li><a href="http://cadox8.me/Deud" target="_blank">Deud</a></li>
+        <li class="-icon"><a href="javascript:void(0);" onclick="myFunction()">☰</a></li>
+    </ul>
+
+    <br>
+
+    <div class="container">
+        <h2 class="centered">Projects</h2>
+        <p class="centered">All my projects resides on my <a target="_blank" href="https://github.com/cadox8" class="has-text-danger">Github account</a>,
+        here I will only put my best projects.</p><hr>
+
+        <div class="row">
+            <div class="col m4 centered justify">
+                <h3>LoM</h3>
+                <p>Recreation of the popular game of Riot Games called League of Legends in Minecraft</p>
+                <a href="https://github.com/cadox8/LOM" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            </div>
+            <div class="col m4 centered justify">
+                <h3>UnderGames</h3>
+                <p>Project together with <a target="_blank" class="has-text-danger" href="https://twitter.com/Cadiducho">Cadiducho</a> for a Spanish group of youtubers called L3TCRAFT</p>
+                <a href="https://github.com/cadiducho/FEM" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            </div>
+            <div class="col m4 centered justify">
+                <h3>Deud</h3>
+                <p>Java 2D Game following the style of 80's games. Currently in development. Made with Pixels</p>
+                <a href="http://cadox8.me/Deud" target="_blank" class="button _danger"><span class="network-name">Web</span></a>
             </div>
         </div>
-
-        <div id="navMenu" class="navbar-menu">
-           <div class="navbar-end">
-                <a class="navbar-item" href="./">Home</a>
-                <a class="navbar-item is-active" href="">Java Projects</a>
-                <a class="navbar-item" href="./webs.html">Webs</a>
-                <a class="navbar-item" href="http://cadox8.me/Deud" target="_blank">Deud</a>
-                <p class="navbar-item is-hidden-mobile"></p>
+        <div class="row">
+            <div class="col m4 centered">
+                <h3>Kankrelats's Web</h3>
+                <p>Custom website for my company made with Bulma.</p>
+                <a href="https://kankrelats.github.io" target="_blank" class="button _danger"><span class="network-name">Web</span></a>
+            </div>
+            <div class="col m4 centered">
+                <h3>Kristine's Web</h3>
+                <p>Simple and powerful forum software made with Bulma.</p>
+                <a target="_blank" class="button _danger _disabled"><span class="network-name">Soon...</span></a>
+            </div>
+            <div class="col m4 centered">
+                <h3>AVC</h3>
+                <p>A minecraft version of <a class="has-text-danger" href="https://www.hyperhippo.ca/adventure-capitalist" target="_blank">AdVenture Capitalist game</a> currently in development.</p>
+                <a href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
             </div>
         </div>
-    </nav>
+    </div>
 
-    <!-- Projects -->
-    <section class="section">
-        <div class="container">
-            <h1 class="title is-2 centered" style="margin-top: -30px">Java Projects</h1>
-            <hr class="intro-divider">
-            <div class="columns">
-                <div class="column centered">
-                    <h1 class="title is-4">LoM</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Recreation of the popular game of Riot Games called League of Legends in Minecraft</h2>
-                    <a href="https://github.com/cadox8/LOM" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-                <div class="column centered">
-                    <h1 class="title is-4">UnderGames (FEM)</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">It's a server in itself. Project together with <a href="https://twitter.com/Cadiducho">Cadiducho</a> for a Spanish group of youtubers called L3TCRAFT</h2>
-                    <a href="https://github.com/cadiducho/FEM" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-                <div class="column centered">
-                    <h1 class="title is-4">Deud</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Java Game following the style of 80's games.</h2>
-                    <a href="http://cadox8.me/Deud" target="_blank" class="button is-danger"><span class="network-name">Web</span></a>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="columns">
-                <div class="column centered">
-                    <h1 class="title is-4">AdVenture-Capitalist</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">A minecraft version of AdVenture Capitalist game</h2>
-                    <a href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-                <div class="column centered">
-                    <h1 class="title is-4">Harry Potter</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Recreation of Harry Potter's word in Minecraft</h2>
-                    <a href="https://github.com/cadox8/HarryPotter" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-                <div class="column centered">
-                    <h1 class="title is-4">Social GUI</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">A plugin where users can add links to different webs without spaming the chat</h2>
-                    <a href="https://spigotmc.org/resources/socialgui.26668/" target="_blank" class="button is-warning"><i class="fa fa-cubes fa-fw"></i> <span class="network-name">Spigot</span></a>
-                    <a href="https://github.com/cadox8/SocialGUI" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-            </div>
-
-            <br>
-
-            <div class="columns">
-                <div class="column centered">
-                    <h1 class="title is-4">Simple Encryptation (WIP)</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">My custom encryptation system</h2>
-                    <a href="https://github.com/cadox8/SimpleEncryption" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-                <div class="column centered">
-                    <h1 class="title is-4">Riveth (WIP)</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">A <s>shitty</s> rework from zero of <a href="https://github.com/essentials/Essentials">Essentials</a></h2>
-                    <a href="https://github.com/cadox8/Riveth" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-                <div class="column centered">
-                    <h1 class="title is-4">Antium</h1>
-                    <h2 class="subtitle is-5" style="margin-bottom: 5px">Custom authentication plugin (WIP)</h2>
-                    <a href="https://github.com/cadox8/Antium" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-                </div>
-            </div>
-        </div>
-    </section>
+    <br>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="column is-12">
-                <ul>
-                    <li>
-                        <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><span class="icon is-small"><i style="color: black;" class="fa fa-github"></i></span> I'm Open Source</a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. <span class="icon is-small"><i style="color: blue" class="fa fa-code"></i></span> with <span class="icon is-small"><i style="color: purple" class="fa fa-heart"></i></span> by Cadox8.
-                <p class="loadInfo" id="loadTime"> Getting Time...</p>
-            </div>
-        </div>
-    </footer>
+    <div class="jumbo _dark">
+
+        <a style="color:white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
+        <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.
+        <br>&copy; 2017
+    </div>
 
     <!-- jQuery -->
     <script src="js/jquery.js"></script>
     <!-- Custom JavaScript -->
     <script src="js/bulma.js"></script>
 
+    <!-- NavBar -->
+    <script>
+    function myFunction() {
+        var x = document.getElementById("navbar");
+
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
 </body>
 
 </html>

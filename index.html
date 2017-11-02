@@ -2,131 +2,158 @@
 <html lang="en">
 
 <head>
-    <script type="text/javascript"> var beforeload = (new Date()).getTime(); </script>
-
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
     <meta name="theme-color" content="#B21EC9">
 
-    <!-- Bootstrap Core CSS -->
-    <link href="css/bulma.css" rel="stylesheet">
+    <!-- Beauter CSS -->
+    <link href="css/beauter.css" rel="stylesheet">
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
 
     <!-- Custom Fonts -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic,700italic" rel="stylesheet" type="text/css">
 
-    <title>Cadox8 ~ Index</title>
+    <title>Cadox8 ~ Home</title>
 
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <nav class="navbar is-colored is-transparent" id="top">
-        <div class="navbar-brand">
-            <p class="navbar-item is-hidden-mobile"></p>
-            <a class="navbar-item" href=""> Cadox8</a>
-            <div class="navbar-burger burger" data-target="navMenu">
-                <span></span>
-                <span></span>
-                <span></span>
-            </div>
-        </div>
+    <ul class="topnav" id="navbar">
+        <li><a href="" class="brand">Cadox8</a></li>
+        <li><a href="" class="active">Home</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="http://cadox8.me/Deud" target="_blank">Deud</a></li>
+        <li class="-icon"><a href="javascript:void(0);" onclick="myFunction()">☰</a></li>
+    </ul>
 
-        <div id="navMenu" class="navbar-menu">
-            <div class="navbar-end">
-                <a class="navbar-item is-active" href="">Home</a>
-                <a class="navbar-item" href="projects.html">Java Projects</a>
-                <a class="navbar-item" href="./webs.html">Webs</a>
-                <a class="navbar-item" href="http://cadox8.me/Deud" target="_blank">Deud</a>
-                <p class="navbar-item is-hidden-mobile"></p>
-            </div>
-        </div>
-    </nav>
+    <div class="jumbo _purple">
+        <img class="-circle imgProfile" src="img/cadox.png" alt="Cadox8">
+        <h3>Cadox8</h3>
+        <h5 style="margin-top: -30px">Iván Rica</h5>
+        <p class="name">Developer and Web Designer. I love space and purple things.</p>
+        <p class="name" style="margin-top: -30px"><span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span> <a href="http://bulma.io" class="has-text-warning">Bulma</a>, Maeve, Ready Player One & Fablehaven <span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span></p>
+    </div>
 
-    <!-- Header -->
-    <section class="hero is-dark">
-        <div class="hero-body">
-            <div class="container">
-                <figure class="image is-256x256 is-profile">
-                    <img src="img/cadox.png" alt="Cadox8">
-                </figure>
-                <h1 class="title is-2 centered" style="margin-bottom: 0">
-                    <strong>Cadox8</strong>
-                </h1>
-                <h1 class="title is-4 centered" style="margin-top: 0">
-                    Iván Rica
-                </h1>
-                <h2 class="subtitle is-5 centered" style="margin-bottom: 0">
-                    Developer and Web Designer. I love space and purple things.
-                </h2>
-                <h2 class="subtitle is-5 centered" style="margin-top: 0">
-                    <span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span> <a href="http://bulma.io" class="has-text-warning">Bulma</a>, Maeve, Ready Player One & Fablehaven <span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span>
-                </h2>
-            </div>
-        </div>
-    </section>
+    <br>
 
     <!-- Social -->
-    <section class="section" style="margin-bottom: -40px">
-        <div class="container">
-            <h2 class="title is-2 centered" style="margin-top: -30px">Social</h2>
-            <hr class="intro-divider">
-            <p class="centered">Hey, take a look on my social accounts!</p><br>
+    <div class="container">
+        <h2 class="centered">Social</h2>
+        <hr class="intro-divider">
+        <p class="centered">Hey, take a look on my social accounts or donate me if you like my job ^^</p>
 
-            <div class="centered">
-                <a href="https://twitter.com/cadox8" target="_blank" class="button is-info"><i class="fa fa-twitter fa-fw"></i> <span class="network-name"> Twitter</span></a>
-                <a href="https://github.com/cadox8" target="_blank" class="button is-dark"><i class="fa fa-github fa-fw"></i> <span class="network-name"> Github</span></a>
-                <a href="https://keybase.io/cadox8" target="_blank" class="button is-warning"><i class="fa fa-key"></i> <span class="network-name"> Keybase</span></a>
-                <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="button is-danger"><i class="fa fa-television"></i> <span class="network-name"> MyAnimeList</span></a>
-            </div>
+        <div class="centered">
+            <a href="https://twitter.com/cadox8" target="_blank" class="button _primary"><i class="fa fa-twitter"></i> <span class="network-name"> Twitter</span></a>
+            <a href="https://github.com/cadox8" target="_blank" class="button _dark"><i class="fa fa-github"></i> <span class="network-name"> Github</span></a>
+            <a href="https://keybase.io/cadox8" target="_blank" class="button _warning"><i class="fa fa-key"></i> <span class="network-name"> Keybase</span></a><br>
+            <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="button _danger"><i class="fa fa-television"></i> <span class="network-name"> MyAnimeList</span></a>
+            <a href="https://ko-fi.com/I2I258YD" target="_blank" class="button _purple"><i class="fa fa-coffee"></i> <span class="network-name"> Buy me a coffee</span></a>
+            <a href="https://www.paypal.me/Cadox8" target="_blank" class="button _info"><i class="fa fa-paypal"></i> <span class="network-name"> Donate</span></a>
         </div>
-    </section>
+    </div>
+
+    <br>
+    <br>
 
     <!-- About -->
-    <section class="section">
-        <div class="container">
-            <h2 class="title is-2 centered" style="margin-top: -30px">About</h2>
-            <hr class="intro-divider">
-            <div class="columns">
-                <div class="column is-2"></div>
-                <div class="column is-4 justify">
-                    Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a target="_blank" href="https://spigotmc.org">Spigot</a> and some webs for fun.
-                    <br/>
-                    The best way to contact me is via <a target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a href="mailto:cadox8@gmail.com">my email</a>.
+    <div class="container">
+        <h2 class="centered">About</h2>
+        <hr class="intro-divider">
+        <div class="row">
+            <div class="col m1"></div>
+            <div class="col m5 justify"><p>
+                Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a> and some webs for fun.
+                <br/>
+                The best way to contact me is via <a target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a href="mailto:cadox8@gmail.com">my email</a>.
+            </p></div>
+            <div class="col m5 justify"><p>
+                I'm currently working on <a target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends.
+                <br/>
+                I'm also developing a game called <a target="_blank" href="http://cadox8.me/Deud">Deud</a> and I'm own <a href="https://kankrelats.github.io">Kankrelats</a>.
+            </p></div>
+        </div>
+    </div>
+
+    <br>
+
+    <!-- Skills -->
+    <div class="container">
+        <h2 class="centered">Skills</h2>
+        <hr class="intro-divider">
+        <div class="row">
+            <div class="col m6">
+                <div class="progressbar">
+                    <div class="-bar _danger" style="width:96%">
+                        <div class="-label">Java 96%</div>
+                    </div>
+                </div><br>
+                <div class="progressbar">
+                    <div class="-bar _info" style="width:90%">
+                        <div class="-label">PHP 90%</div>
+                    </div>
+                </div><br>
+                <div class="progressbar">
+                    <div class="-bar _dark" style="width:15%">
+                        <div class="-label">Phyton 15%</div>
+                    </div>
                 </div>
-                <div class="column is-4 justify">
-                    I'm currently working on <a target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends.
-                    <br/>
-                    I'm also developing a game called <a target="_blank" href="http://cadox8.me/Deud">Deud</a> from <a href="https://kankrelats.github.io">Kankrelats</a>.
+            </div>
+            <div class="col m6">
+                <div class="progressbar">
+                    <div class="-bar _dark" style="width:80%">
+                        <div class="-label">CSS 80%</div>
+                    </div>
+                </div><br>
+                <div class="progressbar">
+                    <div class="-bar _warning" style="width:67%">
+                        <div class="-label">JS 67%</div>
+                    </div>
+                </div><br>
+                <div class="progressbar">
+                    <div class="-bar _danger" style="width:35%">
+                        <div class="-label">C++ 35%</div>
+                    </div>
                 </div>
             </div>
         </div>
-    </section>
+    </div>
+
+    <br>
+    <br>
 
     <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="column is-12">
-                <ul>
-                    <li>
-                        <a target="_blank" href="https://github.com/cadox8/cadox8.github.io"><span class="icon is-small"><i style="color: black;" class="fa fa-github"></i></span> I'm Open Source</a>
-                    </li>
-                </ul>
-                <p class="copyright text-muted small">Copyright &copy; Cadox8 2016-2017. <span class="icon is-small"><i style="color: blue" class="fa fa-code"></i></span> with <span class="icon is-small"><i style="color: purple" class="fa fa-heart"></i></span> by Cadox8.
-                <p class="loadInfo" id="loadTime"> Getting Time...</p>
-            </div>
-        </div>
-    </footer>
+    <div class="jumbo _dark">
+
+        <a style="color:white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
+        <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.
+        <br>&copy; 2017
+    </div>
 
     <!-- jQuery -->
-    <script src="js/jquery.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <!-- Custom JavaScript -->
     <script src="js/bulma.js"></script>
+    <!-- Custom JavaScript -->
+    <script src="js/percircle.js"></script>
+
+    <!-- NavBar -->
+    <script>
+    function myFunction() {
+        var x = document.getElementById("navbar");
+
+        if (x.className === "topnav") {
+            x.className += " responsive";
+        } else {
+            x.className = "topnav";
+        }
+    }
+    </script>
+
 </body>
 
 </html>

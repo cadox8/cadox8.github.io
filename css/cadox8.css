@@ -9,28 +9,12 @@
     font-size: 11px;
 }
 
-.image.is-profile img{
-    height: 256px;
-    width: 256px;
-
-    display: block;
-    margin: 0 auto;
-    border-radius: 50%;
-}
-
-.navbar.is-colored {
-    background-color: #f8f8f8;
-}
-
 .important {
     font-size: 20px;
 }
 
 .name {
-    font-size: 20px;
-    font-weight: bold;
-    text-align: center;
-    margin-top: -25px;
+    font-size: 17px;
 }
 
 .justify {
@@ -46,6 +30,11 @@
     font-size: 75px;
 }
 
+.imgProfile {
+    display: block;
+    margin: auto;
+}
+
 footer {
     padding: 20px 0;
     background-color: #f8f8f8;
@@ -53,4 +42,85 @@ footer {
 
 p.copyright {
     margin: 10px 0 0;
+}
+
+/* From Bulma.io */
+.has-text-white {
+  color: white !important;
+}
+
+a.has-text-white:hover, a.has-text-white:focus {
+  color: #e6e6e6 !important;
+}
+
+.has-text-black {
+  color: #0a0a0a !important;
+}
+
+a.has-text-black:hover, a.has-text-black:focus {
+  color: black !important;
+}
+
+.has-text-light {
+  color: whitesmoke !important;
+}
+
+a.has-text-light:hover, a.has-text-light:focus {
+  color: #dbdbdb !important;
+}
+
+.has-text-dark {
+  color: #363636 !important;
+}
+
+a.has-text-dark:hover, a.has-text-dark:focus {
+  color: #1c1c1c !important;
+}
+
+.has-text-primary {
+  color: #00d1b2 !important;
+}
+
+a.has-text-primary:hover, a.has-text-primary:focus {
+  color: #009e86 !important;
+}
+
+.has-text-link {
+  color: #3273dc !important;
+}
+
+a.has-text-link:hover, a.has-text-link:focus {
+  color: #205bbc !important;
+}
+
+.has-text-info {
+  color: #209cee !important;
+}
+
+a.has-text-info:hover, a.has-text-info:focus {
+  color: #0f81cc !important;
+}
+
+.has-text-success {
+  color: #23d160 !important;
+}
+
+a.has-text-success:hover, a.has-text-success:focus {
+  color: #1ca64c !important;
+}
+
+.has-text-warning {
+  color: #ffdd57 !important;
+}
+
+a.has-text-warning:hover, a.has-text-warning:focus {
+  color: #ffd324 !important;
+}
+
+.has-text-danger {
+  color: #ff3860 !important;
+}
+
+a.has-text-danger:hover, a.has-text-danger:focus {
+  color: #ff0537 !important;
 }
