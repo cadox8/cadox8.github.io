@@ -48,7 +48,8 @@
         <li><a href="" class="active">Home</a></li>
         <li><a href="projects.html">Projects</a></li>
         <li><a href="http://cadox8.me/Deud" target="_blank">Deud</a></li>
-        <li class="-icon"><a href="javascript:void(0);" onclick="myFunction()">☰</a></li>
+        <li style="float:right;"><a href="#" id="dark">Dark/Light</a></li>
+        <li class="-icon"><a href="javascript:void(0);" onclick="navBar()">☰</a></li>
     </ul>
 
     <div class="jumbo _purple">
@@ -56,7 +57,7 @@
         <h3>Cadox8</h3>
         <h5 style="margin-top: -30px">Iván Rica</h5>
         <p class="name">Developer and Web Designer. I love space and purple things.</p>
-        <p class="name" style="margin-top: -30px"><span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span> <a href="http://bulma.io" class="has-text-warning">Bulma</a>, Maeve, Ready Player One & Fablehaven <span class="icon is-small"><i style="color: red" class="fa fa-heart"></i></span></p>
+        <p class="name" style="margin-top: -30px"><i style="color: red" class="fa fa-heart"></i> Morgana, Maeve, Ready Player One & Fablehaven <i style="color: red" class="fa fa-heart"></i></p>
     </div>
 
     <br>
@@ -68,13 +69,14 @@
         <p class="centered">Hey, take a look on my social accounts or donate me if you like my job ^^</p>
 
         <div class="centered">
-            <a href="https://twitter.com/cadox8" target="_blank" class="button _primary"><i class="fa fa-twitter"></i> <span class="network-name"> Twitter</span></a>
-            <a href="https://github.com/cadox8" target="_blank" class="button _dark"><i class="fa fa-github"></i> <span class="network-name"> Github</span></a>
+            <a href="https://twitter.com/cadox8" target="_blank" class="button _info"><i class="fa fa-twitter"></i> <span class="network-name"> Twitter</span></a>
+            <a href="https://github.com/cadox8" target="_blank" class="button _active"><i class="fa fa-github"></i> <span class="network-name"> Github</span></a>
             <a href="https://keybase.io/cadox8" target="_blank" class="button _warning"><i class="fa fa-key"></i> <span class="network-name"> Keybase</span></a>
             <a href="https://cadox8.keybase.pub" target="_blank" class="button _active"><i class="fa fa-key"></i> <span class="network-name"> Keybase Web</span></a><br>
             <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="button _danger"><i class="fa fa-television"></i> <span class="network-name"> MyAnimeList</span></a>
             <a href="https://ko-fi.com/I2I258YD" target="_blank" class="button _purple"><i class="fa fa-coffee"></i> <span class="network-name"> Buy me a coffee</span></a>
             <a href="https://www.paypal.me/Cadox8" target="_blank" class="button _info"><i class="fa fa-paypal"></i> <span class="network-name"> Donate</span></a>
+            <a href="mailto:cadox8@gmail.com?Subject=Hello" class="button _danger"><i class="fa fa-envelope-o"></i> <span class="network-name"> Mail me</span></a>
         </div>
     </div>
 
@@ -88,15 +90,22 @@
         <div class="row">
             <div class="col m1"></div>
             <div class="col m5 justify"><p>
-                Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a> and some webs for fun.
+                Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a class="has-text-danger" target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a> and some webs for fun.
                 <br/>
-                The best way to contact me is via <a target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a href="mailto:cadox8@gmail.com">my email</a>.
+                The best way to contact me is via <a class="has-text-danger" target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a class="has-text-danger" href="mailto:cadox8@gmail.com">my email</a>.
             </p></div>
             <div class="col m5 justify"><p>
-                I'm currently working on <a target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends.
+                I'm currently working on <a class="has-text-danger" target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends.
                 <br/>
-                I'm also developing a game called <a target="_blank" href="http://cadox8.me/Deud">Deud</a> and I'm own <a href="https://kankrelats.github.io">Kankrelats</a>.
+                I'm also developing a game called <a class="has-text-danger" target="_blank" href="http://cadox8.me/Deud">Deud</a> and I'm own <a class="has-text-danger" target="_blank" href="https://kankrelats.github.io">Kankrelats</a>.
             </p></div>
+        </div>
+
+        <div class="alert _cream centered">
+            At the moment, <strong>I'm avariable for hire</strong> and here you can check my Résumé (CV)<br><br>
+            <a href="https://resume.github.io/?cadox8" target="_blank" class="button"><span class="network-name">Résumé</span></a><br>
+            <small>This button shows my CV based on <a class="has-text-black" href="https://github.com/resume/resume.github.com">a Github's project</a>.
+            <br> Mail me here: <a class="has-text-black" href="mailto:cadox8@gmail.com?Subject=Hello" class="button _danger">cadox8@gmail.com</a></small>
         </div>
     </div>
 
@@ -110,34 +119,34 @@
             <div class="col m6">
                 <div class="progressbar">
                     <div class="-bar _danger" style="width:96%">
-                        <div class="-label">Java 96%</div>
+                        <div class="-label">Java</div>
                     </div>
                 </div><br>
                 <div class="progressbar">
                     <div class="-bar _info" style="width:90%">
-                        <div class="-label">PHP 90%</div>
+                        <div class="-label">PHP</div>
                     </div>
                 </div><br>
                 <div class="progressbar">
-                    <div class="-bar _dark" style="width:15%">
-                        <div class="-label">Python 15%</div>
+                    <div class="-bar _active" style="width:17%">
+                        <div class="-label">Python</div>
                     </div>
                 </div>
             </div>
             <div class="col m6">
                 <div class="progressbar">
                     <div class="-bar _primary" style="width:80%">
-                        <div class="-label">CSS 80%</div>
+                        <div class="-label">CSS</div>
                     </div>
                 </div><br>
                 <div class="progressbar">
-                    <div class="-bar _warning" style="width:67%">
-                        <div class="-label">JS 67%</div>
+                    <div class="-bar _warning" style="width:70%">
+                        <div class="-label">JavaScript</div>
                     </div>
                 </div><br>
                 <div class="progressbar">
                     <div class="-bar _danger" style="width:35%">
-                        <div class="-label">C++ 35%</div>
+                        <div class="-label">C++</div>
                     </div>
                 </div>
             </div>
@@ -148,9 +157,9 @@
     <br>
 
     <!-- Footer -->
-    <div class="jumbo _dark">
+    <div id="footer" class="jumbo _dark">
 
-        <a style="color:white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
+        <a class="has-text-danger" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
         <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.
         <br>&copy; 2017
     </div>
@@ -160,7 +169,7 @@
 
     <!-- NavBar -->
     <script>
-    function myFunction() {
+    function navBar() {
         var x = document.getElementById("navbar");
 
         if (x.className === "topnav") {
@@ -169,6 +178,30 @@
             x.className = "topnav";
         }
     }
+    </script>
+
+    <script>
+    var darkEnabled = false;
+    $(document).ready(function() {
+            $("#dark").on("click", switchDarkMode);
+            $("#reset").on("click", reset);
+            }
+        );
+
+          function switchDarkMode(){
+            darkEnabled = !darkEnabled;
+            if(darkEnabled){
+              $("body").addClass("_dark");
+              $("body").addClass("has-text-white");
+              $("#footer").removeClass("_dark");
+              $("#footer").addClass("_cream");
+            } else {
+              $("body").removeClass("_dark");
+              $("body").removeClass("has-text-white");
+              $("#footer").addClass("_dark");
+              $("#footer").removeClass("_cream");
+            }
+          }
     </script>
 
 </body>
