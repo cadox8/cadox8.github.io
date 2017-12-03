@@ -48,6 +48,7 @@
         <li><a href="index.html">Home</a></li>
         <li><a href="" class="active">Projects</a></li>
         <li><a href="http://cadox8.me/Deud" target="_blank">Deud</a></li>
+        <li style="float:right;"><a href="#" id="dark">Dark/Light</a></li>
         <li class="-icon"><a href="javascript:void(0);" onclick="navBar()">☰</a></li>
     </ul>
 
@@ -125,6 +126,30 @@
             x.className = "topnav";
         }
     }
+    </script>
+
+    <script>
+    var darkEnabled = false;
+    $(document).ready(function() {
+            $("#dark").on("click", switchDarkMode);
+            $("#reset").on("click", reset);
+            }
+        );
+
+          function switchDarkMode(){
+            darkEnabled = !darkEnabled;
+            if(darkEnabled){
+              $("body").addClass("_dark");
+              $("body").addClass("has-text-white");
+              $("#footer").removeClass("_dark");
+              $("#footer").addClass("_cream");
+            } else {
+              $("body").removeClass("_dark");
+              $("body").removeClass("has-text-white");
+              $("#footer").addClass("_dark");
+              $("#footer").removeClass("_cream");
+            }
+          }
     </script>
 </body>
 
