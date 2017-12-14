@@ -29,8 +29,8 @@
 
     <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
 
-    <!-- Beauter CSS -->
-    <link href="css/beauter.css" rel="stylesheet">
+    <!-- Siimple CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css">
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
 
@@ -43,168 +43,89 @@
 <body>
 
     <!-- Navigation -->
-    <ul class="topnav" id="navbar">
-        <li><a href="" class="brand">Cadox8</a></li>
-        <li><a href="" class="active">Home</a></li>
-        <li><a href="projects.html">Projects</a></li>
-        <li><a href="http://cadox8.me/Deud" target="_blank">Deud</a></li>
-        <li style="float:right;"><a href="#" id="dark">Dark/Light</a></li>
-        <li class="-icon"><a href="javascript:void(0);" onclick="navBar()">☰</a></li>
-    </ul>
+    <div class="siimple-navbar siimple-navbar--purple siimple-navbar--fluid">
+        <div class="siimple-layout--left">
+            <a class="siimple-navbar-title">Cadox8</a>
+        </div>
+        <div class="siimple-layout--right">
+            <a class="siimple-navbar-link">Home</a>
+            <a class="siimple-navbar-link" href="projects.html">Projects</a>
+            <a class="siimple-navbar-link" href="http://cadox8.me/Deud" target="_blank">Deud</a>
+        </div>
+    </div>
 
-    <div class="jumbo _purple">
-        <img class="-circle imgProfile" src="img/cadox.png" alt="Cadox8">
-        <h3>Cadox8</h3>
-        <h5 style="margin-top: -30px">Iván Rica</h5>
-        <p class="name">Developer and Web Designer. I love space and purple things.</p>
-        <p class="name" style="margin-top: -30px"><i style="color: red" class="fa fa-heart"></i> Morgana, Maeve, Ready Player One & Fablehaven <i style="color: red" class="fa fa-heart"></i></p>
+    <div class="siimple-box siimple-box--navy siimple-box--fluid">
+        <img class="imgProfile" src="img/cadox.png" alt="Cadox8">
+        <center><div class="siimple-box-title">cadox8</div>
+        <div class="siimple-box-subtitle">Iván Rica</div>
+        <div class="siimple-box-detail">Developer and Web Designer. I love space and purple things.</div>
+        <div class="siimple-box-detail"><i style="color: red" class="fa fa-heart"></i> Morgana, Maeve, Ready Player One & Fablehaven <i style="color: red" class="fa fa-heart"></i></div></center>
     </div>
 
     <br>
 
     <!-- Social -->
-    <div class="container">
-        <h2 class="centered">Social</h2>
-        <hr class="intro-divider">
-        <p class="centered">Hey, take a look on my social accounts or donate me if you like my job ^^</p>
+    <div class="siimple-content">
+        <div class="siimple-h2 centered">Social</div>
+        <hr>
+        <p class="siimple-p centered">Hey, take a look on my social accounts or donate me if you like my job ^^</p>
 
         <div class="centered">
-            <a href="https://twitter.com/cadox8" target="_blank" class="button _info"><i class="fa fa-twitter"></i> <span class="network-name"> Twitter</span></a>
-            <a href="https://github.com/cadox8" target="_blank" class="button _active"><i class="fa fa-github"></i> <span class="network-name"> Github</span></a>
-            <a href="https://keybase.io/cadox8" target="_blank" class="button _warning"><i class="fa fa-key"></i> <span class="network-name"> Keybase</span></a>
-            <a href="https://cadox8.keybase.pub" target="_blank" class="button _active"><i class="fa fa-key"></i> <span class="network-name"> Keybase Web</span></a><br>
-            <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="button _danger"><i class="fa fa-television"></i> <span class="network-name"> MyAnimeList</span></a>
-            <a href="https://ko-fi.com/I2I258YD" target="_blank" class="button _purple"><i class="fa fa-coffee"></i> <span class="network-name"> Buy me a coffee</span></a>
-            <a href="https://www.paypal.me/Cadox8" target="_blank" class="button _info"><i class="fa fa-paypal"></i> <span class="network-name"> Donate</span></a>
-            <a href="mailto:cadox8@gmail.com?Subject=Hello" class="button _danger"><i class="fa fa-envelope-o"></i> <span class="network-name"> Mail me</span></a>
+            <a href="https://twitter.com/cadox8" target="_blank" class="siimple-btn siimple-btn--teal"><i class="fa fa-twitter"></i> Twitter</a>
+            <a href="https://github.com/cadox8" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-github"></i> Github</a>
+            <a href="https://keybase.io/cadox8" target="_blank" class="siimple-btn siimple-btn--orange"><i class="fa fa-key"></i> Keybase</a>
+            <a href="https://cadox8.keybase.pub" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-key"></i> Keybase Web</a><br>
+            <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="siimple-btn siimple-btn--red"><i class="fa fa-television"></i> MyAnimeList</a>
+            <a href="https://ko-fi.com/I2I258YD" target="_blank" class="siimple-btn siimple-btn--purple"><i class="fa fa-coffee"></i> Buy me a coffee</a>
+            <a href="https://www.paypal.me/Cadox8" target="_blank" class="siimple-btn siimple-btn--blue"><i class="fa fa-paypal"></i> Donate</a>
+            <a href="mailto:cadox8@gmail.com?Subject=Hello" class="siimple-btn siimple-btn--red"><i class="fa fa-envelope-o"></i> Mail me</a>
         </div>
     </div>
-
-    <br>
-    <br>
 
     <!-- About -->
     <div class="container">
-        <h2 class="centered">About</h2>
-        <hr class="intro-divider">
-        <div class="row">
-            <div class="col m1"></div>
-            <div class="col m5 justify"><p>
-                Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a class="has-text-danger" target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a> and some webs for fun.
-                <br/>
-                The best way to contact me is via <a class="has-text-danger" target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a class="has-text-danger" href="mailto:cadox8@gmail.com">my email</a>.
-            </p></div>
-            <div class="col m5 justify"><p>
-                I'm currently working on <a class="has-text-danger" target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends.
-                <br/>
-                I'm also developing a game called <a class="has-text-danger" target="_blank" href="http://cadox8.me/Deud">Deud</a> and I'm own <a class="has-text-danger" target="_blank" href="https://kankrelats.github.io">Kankrelats</a>.
-            </p></div>
+        <div class="siimple-h2 centered">About Me</div>
+        <hr>
+
+        <div class="siimple-grid">
+          <div class="siimple-grid-row">
+            <div class="siimple-grid-col siimple-grid-col--1"><p></p></div>
+            <div class="siimple-grid-col siimple-grid-col--5">
+                <p class="siimple-p">
+                    Hey, I'm cadox8 (Iván Rica) and you're at my website, yay! I develop some plugins for <a class="siimple-link" target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a> and some webs for fun.
+                    <br>
+                    The best way to contact me is via <a class="siimple-link" target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a class="siimple-link" href="mailto:cadox8@gmail.com">my email</a>.
+                </p>
+            </div>
+            <div class="siimple-grid-col siimple-grid-col--1"><p></p></div>
+            <div class="siimple-grid-col siimple-grid-col--5">
+                <p class="siimple-p">
+                    I'm currently working on <a class="siimple-link" target="_blank" href="https://github.com/cadox8/LoM">LoM</a>, a Minecraft version of the popular MOBA League of Legends.
+                    <br>
+                    I'm also developing a game called <a class="siimple-link" target="_blank" href="http://cadox8.me/Deud">Deud</a> and I'm own <a class="siimple-link" target="_blank" href="https://kankrelats.github.io">Kankrelats</a>.
+                </p>
+            </div>
+          </div>
         </div>
 
-        <div class="alert _cream centered">
-            At the moment, <strong>I'm avariable for hire</strong> and here you can check my Résumé (CV)<br><br>
-            <a href="https://resume.github.io/?cadox8" target="_blank" class="button"><span class="network-name">Résumé</span></a><br>
-            <small>This button shows my CV based on <a class="has-text-black" href="https://github.com/resume/resume.github.com">a Github's project</a>.
-            <br> Mail me here: <a class="has-text-black" href="mailto:cadox8@gmail.com?Subject=Hello" class="button _danger">cadox8@gmail.com</a></small>
+        <div class="siimple-alert siimple-alert--gray centered">
+            At the moment, <strong>I'm avariable for hire</strong> and here you can check my Résumé and my CV:<br><br>
+            <a href="https://resume.github.io/?cadox8" target="_blank" class="siimple-btn siimple-btn--navy">Résumé</a>
+            <a href="https://github.com/cadox8/cadox8.github.io/blob/master/Curriculum%20vitae.pdf" target="_blank" class="siimple-btn siimple-btn--navy">CV</a><br>
+            <small>This button shows my CV based on <a class="siimple-link" href="https://github.com/resume/resume.github.com">a Github's project</a>.
+            <br> Mail me here: <a class="siimple-link" href="mailto:cadox8@gmail.com?Subject=Hello" class="button _danger">cadox8@gmail.com</a></small>
         </div>
     </div>
-
-    <br>
-
-    <!-- Skills -->
-    <div class="container">
-        <h2 class="centered">Skills</h2>
-        <hr class="intro-divider">
-        <div class="row">
-            <div class="col m6">
-                <div class="progressbar">
-                    <div class="-bar _danger" style="width:96%">
-                        <div class="-label">Java</div>
-                    </div>
-                </div><br>
-                <div class="progressbar">
-                    <div class="-bar _info" style="width:90%">
-                        <div class="-label">PHP</div>
-                    </div>
-                </div><br>
-                <div class="progressbar">
-                    <div class="-bar _active" style="width:17%">
-                        <div class="-label">Python</div>
-                    </div>
-                </div>
-            </div>
-            <div class="col m6">
-                <div class="progressbar">
-                    <div class="-bar _primary" style="width:80%">
-                        <div class="-label">CSS</div>
-                    </div>
-                </div><br>
-                <div class="progressbar">
-                    <div class="-bar _warning" style="width:70%">
-                        <div class="-label">JavaScript</div>
-                    </div>
-                </div><br>
-                <div class="progressbar">
-                    <div class="-bar _danger" style="width:35%">
-                        <div class="-label">C++</div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-
-    <br>
-    <br>
 
     <!-- Footer -->
-    <div id="footer" class="jumbo _dark">
-
-        <a class="has-text-danger" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
+    <div class="siimple-footer siimple-footer--navy siimple-footer--fluid" align="center">
+        <a class="siimple-link has-text-white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
         <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.<br>
-        <a class="has-text-danger" target="_blank" href="https://cdn.instructables.com/ORIG/FPO/LMLO/J1WEQL7O/FPOLMLOJ1WEQL7O.jpg">I love leds...</a>
+        <a class="siimple-link has-text-white" target="_blank" href="https://cdn.instructables.com/ORIG/FPO/LMLO/J1WEQL7O/FPOLMLOJ1WEQL7O.jpg">I love leds...</a>
         <br>&copy; 2017
     </div>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- NavBar -->
-    <script>
-    function navBar() {
-        var x = document.getElementById("navbar");
-
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
-
-    <script>
-    var darkEnabled = false;
-    $(document).ready(function() {
-            $("#dark").on("click", switchDarkMode);
-            $("#reset").on("click", reset);
-            }
-        );
-
-          function switchDarkMode(){
-            darkEnabled = !darkEnabled;
-            if(darkEnabled){
-              $("body").addClass("_dark");
-              $("body").addClass("has-text-white");
-              $("#footer").removeClass("_dark");
-              $("#footer").addClass("_cream");
-            } else {
-              $("body").removeClass("_dark");
-              $("body").removeClass("has-text-white");
-              $("#footer").addClass("_dark");
-              $("#footer").removeClass("_cream");
-            }
-          }
-    </script>
-
 </body>
-
 </html>

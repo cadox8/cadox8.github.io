@@ -28,129 +28,88 @@
     <meta name="twitter:description" content="Cadox8's personal website">
 
     <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
-
-    <!-- Beauter CSS -->
-    <link href="css/beauter.css" rel="stylesheet">
+    <!-- Siimple CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css">
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
 
     <!-- FontAwesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <title>Cadox8 ~ Projects</title>
+    <title>Cadox8 ~ Home</title>
 </head>
 
 <body>
 
     <!-- Navigation -->
-    <ul class="topnav" id="navbar">
-        <li><a href="index.html" class="brand">Cadox8</a></li>
-        <li><a href="index.html">Home</a></li>
-        <li><a href="" class="active">Projects</a></li>
-        <li><a href="http://cadox8.me/Deud" target="_blank">Deud</a></li>
-        <li style="float:right;"><a href="#" id="dark">Dark/Light</a></li>
-        <li class="-icon"><a href="javascript:void(0);" onclick="navBar()">☰</a></li>
-    </ul>
+    <div class="siimple-navbar siimple-navbar--purple siimple-navbar--fluid">
+        <div class="siimple-layout--left">
+            <a class="siimple-navbar-title" href="index.html">Cadox8</a>
+        </div>
+        <div class="siimple-layout--right">
+            <a class="siimple-navbar-link" href="index.html">Home</a>
+            <a class="siimple-navbar-link">Projects</a>
+            <a class="siimple-navbar-link" href="http://cadox8.me/Deud" target="_blank">Deud</a>
+        </div>
+    </div>
 
-    <br>
-
-    <div class="container">
-        <h2 class="centered">Projects</h2>
-        <p class="centered">All my projects resides on my <a target="_blank" href="https://github.com/cadox8" class="has-text-danger">Github account</a>,
+    <div class="siimple-grid siimple-content">
+        <div class="siimple-h2 centered">Projects</div>
+        <p class="siimple-p centered">All my projects resides on my <a target="_blank" href="https://github.com/cadox8" class="has-text-danger">Github account</a>,
         here I will only put my best projects.</p><hr>
 
-        <div class="row">
-            <div class="col m4 centered justify">
-                <h3>LoM</h3>
-                <p>Recreation of the popular game of Riot Games called League of Legends in Minecraft</p>
-                <a href="https://github.com/cadox8/LOM" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+        <div class="siimple-grid-row">
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">LoM</div>
+                <p class="siimple-p">Recreation of the popular game of Riot Games called League of Legends in Minecraft</p>
+                <a href="https://github.com/cadox8/LOM" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-github fa-fw"></i> Github</a>
             </div>
-            <div class="col m4 centered justify">
-                <h3>UnderGames</h3>
-                <p>Project together with <a target="_blank" class="has-text-danger" href="https://twitter.com/Cadiducho">Cadiducho</a> for a Spanish group of youtubers called L3TCRAFT</p>
-                <a href="https://github.com/cadiducho/FEM" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">UnderGames</div>
+                <p class="siimple-p">Project together with <a target="_blank" class="has-text-danger" href="https://twitter.com/Cadiducho">Cadiducho</a> for a Spanish group of youtubers called L3TCRAFT</p>
+                <a href="https://github.com/cadiducho/FEM" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-github fa-fw"></i> Github</a>
             </div>
-            <div class="col m4 centered justify">
-                <h3>Deud</h3>
-                <p>Java 2D Game following the style of 80's games. Currently in development. Made with Pixels</p>
-                <a href="http://cadox8.me/Deud" target="_blank" class="button _danger"><span class="network-name">Web</span></a>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col m4 centered justify">
-                <h3>Kankrelats's Web</h3>
-                <p>Custom website for my company made with Bulma.</p>
-                <a href="https://kankrelats.github.io" target="_blank" class="button _danger"><span class="network-name">Web</span></a>
-            </div>
-            <div class="col m4 centered justify">
-                <h3>ProjectAlpha</h3>
-                <p>Project together with <a target="_blank" class="has-text-danger" href="https://twitter.com/Wiky3567">Wikijito7</a> for our Minecraft Network.</p>
-                <a href="https://github.com/cadox8/PA" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
-            </div>
-            <div class="col m4 centered justify">
-                <h3>AVC</h3>
-                <p>A minecraft version of <a class="has-text-danger" href="https://www.hyperhippo.ca/adventure-capitalist" target="_blank">AdVenture Capitalist game</a> currently in development.</p>
-                <a href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" target="_blank" class="button _dark"><i class="fa fa-github fa-fw"></i> <span class="network-name">Github</span></a>
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">Deud</div>
+                <p class="siimple-p">Java 2D Game following the style of 80's games. Currently in development. Made with Pixels</p>
+                <a href="http://cadox8.me/Deud" target="_blank" class="siimple-btn siimple-btn--red">Web</a>
             </div>
         </div>
-        <div class="row">
-            <div class="col m4 centered justify">
-                <h3>Kristine's Web</h3>
-                <p>Simple and powerful forum software made with Bulma.</p>
-                <a target="_blank" class="button _danger _disabled"><span class="network-name">Soon...</span></a>
+        <div class="siimple-grid-row">
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">Kankrelats's Web</div>
+                <p class="siimple-p">Custom website for my company made with Bulma.</p>
+                <a href="https://kankrelats.github.io" target="_blank" class="siimple-btn siimple-btn--red">Web</a>
+            </div>
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">ProjectAlpha</div>
+                <p class="siimple-p">Project together with <a target="_blank" class="has-text-danger" href="https://twitter.com/Wiky3567">Wikijito7</a> for our Minecraft Network.</p>
+                <a href="https://github.com/cadox8/PA" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-github fa-fw"></i> Github</a>
+            </div>
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">AVC</div>
+                <p class="siimple-p">A minecraft version of <a class="has-text-danger" href="https://www.hyperhippo.ca/adventure-capitalist" target="_blank">AdVenture Capitalist game</a> currently in development.</p>
+                <a href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-github fa-fw"></i> Github</a>
+            </div>
+        </div>
+        <div class="siimple-grid-row">
+            <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 centered">
+                <div class="siimple-h3">Kristine's Web</div>
+                <p class="siimple-p">Simple and powerful forum software made with Bulma.</p>
+                <a target="_blank" href="https://github.com/ProjectAlphaES/AdVenture-Capitalist" class="siimple-btn siimple-btn--navy"><i class="fa fa-github fa-fw"></i> Github</a>
             </div>
         </div>
     </div>
 
-    <br>
-
     <!-- Footer -->
-    <div class="jumbo _dark">
-
-        <a style="color:white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
-        <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.
+    <div class="siimple-footer siimple-footer--navy siimple-footer--fluid" align="center">
+        <a class="siimple-link has-text-white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a>
+        <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.<br>
+        <a class="siimple-link has-text-white" target="_blank" href="https://cdn.instructables.com/ORIG/FPO/LMLO/J1WEQL7O/FPOLMLOJ1WEQL7O.jpg">I love leds...</a>
         <br>&copy; 2017
     </div>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
-
-    <!-- NavBar -->
-    <script>
-    function navBar() {
-        var x = document.getElementById("navbar");
-
-        if (x.className === "topnav") {
-            x.className += " responsive";
-        } else {
-            x.className = "topnav";
-        }
-    }
-    </script>
-
-    <script>
-    var darkEnabled = false;
-    $(document).ready(function() {
-            $("#dark").on("click", switchDarkMode);
-            $("#reset").on("click", reset);
-            }
-        );
-
-          function switchDarkMode(){
-            darkEnabled = !darkEnabled;
-            if(darkEnabled){
-              $("body").addClass("_dark");
-              $("body").addClass("has-text-white");
-              $("#footer").removeClass("_dark");
-              $("#footer").addClass("_cream");
-            } else {
-              $("body").removeClass("_dark");
-              $("body").removeClass("has-text-white");
-              $("#footer").addClass("_dark");
-              $("#footer").removeClass("_cream");
-            }
-          }
-    </script>
 </body>
-
 </html>
