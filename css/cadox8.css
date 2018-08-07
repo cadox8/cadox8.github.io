@@ -1,19 +1,20 @@
+.brand {
+  font-weight: bold;
+  background: -webkit-linear-gradient(#FE2EC8, #8A0886);
+  -webkit-text-fill-color: transparent;
+  -webkit-background-clip: text;
+}
+
+hr.dark {
+  background-color: gray;
+}
+
 .justify {
     text-align: justify;
 }
 
-.centered {
+.center {
     text-align: center;
-}
-
-.info {
-    text-align: center;
-    font-size: 75px;
-}
-
-hr {
-  border: 2;
-  width: 70%;
 }
 
 .imgProfile {
@@ -22,11 +23,7 @@ hr {
     border-radius: 50%;
 }
 
-/* From Bulma.io */
-.has-text-white {
-  color: white !important;
-}
-
-a.has-text-white:hover, a.has-text-white:focus {
-  color: #e6e6e6 !important;
+.darkCard {
+  color: white;
+  background-color: rgb(64, 64, 64);
 }

@@ -11,10 +11,10 @@
     <meta name="keywords" content="Cadox8, Developer, Dev, HTML, PHP, Spigot, Minecraft, Deud">
     <meta name="author" content="cadox8">
 
-    <meta property="og:url" content="http://cadox8.me">
+    <meta property="og:url" content="http://cadox8.github.io">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Cadox8: personal website">
-    <meta property="og:image" content="http://cadox8.me/img/cadox.png">
+    <meta property="og:image" content="http://cadox8.github.io/img/cadox.png">
     <meta property="og:image:type" content="image/png">
     <meta property="og:image:width" content="256">
     <meta property="og:image:height" content="256">
@@ -24,18 +24,15 @@
     <meta name="twitter:site" content="@cadox8">
     <meta name="twitter:creator" content="@cadox8">
     <meta name="twitter:title" content="Cadox8's personal website">
-    <meta name="twitter:image" content="http://cadox8.me/img/cadox.png">
+    <meta name="twitter:image" content="http://cadox8.github.io/img/cadox.png">
     <meta name="twitter:description" content="Cadox8's personal website">
 
     <link rel="icon" type="image/x-icon" href="img/favicon.ico"/>
 
-    <!-- Siimple CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/siimple@3.0.0/dist/siimple.min.css">
+    <!-- Bulma CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.1/css/bulma.css">
     <!-- Custom CSS -->
     <link href="css/cadox8.css" rel="stylesheet">
-
-    <!-- FontAwesome -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
     <title>Cadox8 ~ Home</title>
 </head>
@@ -43,59 +40,209 @@
 <body>
 
     <!-- Navigation -->
-    <div class="siimple-navbar siimple-navbar--white siimple-navbar--fluid">
-        <div class="siimple-layout--left">
-            <a class="siimple-navbar-title">Cadox8</a>
+    <nav class="navbar">
+      <div class="navbar-brand">
+        <a class="navbar-item is-size-3 brand" href="https://cadox8.github.io/">Cadox8</a>
+        <div class="navbar-burger burger" data-target="menu">
+          <span></span>
+          <span></span>
+          <span></span>
         </div>
-        <div class="siimple-layout--right">
-            <a class="siimple-navbar-link" href="projects.html"><i class="fa fa-book" style="color: blue"></i> Projects</a>
-            <a class="siimple-navbar-link" href="http://cadox8.me/Deud" target="_blank"><i class="fa fa-trophy" style="color: orange"></i> Deud</a>
-        </div>
-    </div>
+      </div>
 
-    <div class="siimple-box siimple-box--gray siimple-box--fluid">
-        <img class="imgProfile" src="img/cadox.png" alt="Cadox8">
-        <center><div class="siimple-box-title">cadox8</div>
-        <div class="siimple-box-subtitle">Iván Rica</div>
+      <div class="navbar-menu" id="menu">
+        <div class="navbar-start"></div>
+
+        <div class="navbar-end">
+          <a class="navbar-item" href="#portfolio">Portfolio</a>
+          <a class="navbar-item" href="#about">About Me</a>
+          <a class="navbar-item" href="#contact">Contact</a>
+          <p class="navbar-item"></p>
+          <a class="navbar-item" target="_blank" href="repo.html">Repo</a>
+          <div class="navbar-item">
+            <div class="field is-grouped">
+              <p class="control">
+                <a class="button is-danger" target="_blank" href="https://cadox8.github.io/Deud">
+                  <span class="icon"><i class="fas fa-gamepad"></i></span>
+                  <span>Deud</span>
+                </a>
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero is-info is-bold">
+      <div class="hero-body">
+        <div class="container">
+          <img class="imgProfile" src="img/cadox.png" alt="Cadox8">
+          <h1 class="title center">cadox8</h1>
+          <h2 class="subtitle center">Iván Rica</h2>
+        </div>
+      </div>
+    </section>
+
+    <br>
+
+    <section class="section has-background-light" id="about">
+      <div class="container">
+        <h1 class="title center">About Me <a href="#menu" class="has-text-black"><span class="icon"><i class="far fa-arrow-alt-circle-up"></i></span></a></h1>
+        <h3 class="subtitle"></h3><hr class="dark">
+        <p class="center justify">
+          <strong>Hey! I'm cadox8 (Iván Rica) and you're at my website, yay!<br><br></strong>
+
+          I'm a <strong>Java Developer</strong> focused on Minecraft Networks, Games and General Software.
+          I develop plugins for <a target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a>, but you can also find me on <a href="https://github.com/cadox8" target="_blank">Github</a>.<br><br>
+
+          Also, I'm a <strong>Front-End Developer</strong>. Now, I'm developing a simple but powerfull forum software called <a href="https://github.com/cadox8/Kristine" target="_blank">Kristine</a>.<br><br>
+
+          The best way to contact me is via <a target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a href="mailto:cadox8@gmail.com">my email</a>.
+        </p>
+      </div>
+    </section>
+
+    <br>
+
+    <div class="container" id="portfolio">
+      <h1 class="title center">Portfolio <a href="#menu" class="has-text-black"><span class="icon"><i class="far fa-arrow-alt-circle-up"></i></span></a></h1><hr>
+      <div class="notification is-link"><h6 class="subtitle is-6 center">You can check all my work in <a href="https://github.com/cadox8">Github</a>.</h6></div>
+      <div class="columns">
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://pbs.twimg.com/media/CxJo_ZvWEAAZC8-.jpg" alt="undergames">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Undergames (FEM)</p>
+                </div>
+              </div>
+
+              <div class="content">
+                Project together with <a href="https://cadiducho.com" target="_blank">Cadiducho</a> for a Spanish group of youtubers called <a href="https://twitter.com/l3tcraft" target="_blank">L3TCRAFT</a>
+                <br><span class="tag is-success is-rounded">Minecraft</span><br><br>
+                <div class="field is-grouped">
+                  <p class="control">
+                    <a class="button is-dark" target="_blank" href="https://github.com/cadiducho/FEM">
+                      <span class="icon"><i class="fab fa-github"></i></span>
+                      <span>Github</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card darkCard">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="img/deud.png" alt="deud">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4 has-text-white">Deud</p>
+                </div>
+              </div>
+
+              <div class="content">
+                Java 2D Game following the style of 80's games. Currently in development. Made with Pixels
+                <br><span class="tag is-info is-rounded">Java</span><span class="tag is-warning is-rounded">Game</span><br><br>
+                <div class="field is-grouped">
+                  <p class="control">
+                    <a class="button is-danger" target="_blank" href="https://cadox8.github.io/Deud">
+                      <span class="icon"><i class="fas fa-gamepad"></i></span>
+                      <span>Deud</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://raw.githubusercontent.com/cadox8/Kristine/master/img/kristine.jpg" alt="kristine">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4">Kristine</p>
+                </div>
+              </div>
+
+              <div class="content">
+                Simple and powerful forum software made with Bulma.
+                <br><span class="tag is-danger is-rounded">Web</span><br><br>
+                <div class="field is-grouped">
+                  <p class="control">
+                    <a class="button is-dark" target="_blank" href="https://github.com/cadox8/Kristine">
+                      <span class="icon"><i class="fab fa-github"></i></span>
+                      <span>Github</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div><br />
+          </div>
+        </div>
+
+        <div class="column">
+          <div class="card darkCard">
+            <div class="card-image">
+              <figure class="image is-4by3">
+                <img src="https://raw.githubusercontent.com/cadox8/XenAPI/master/docs/img/logo.png" alt="xenAPI">
+              </figure>
+            </div>
+            <div class="card-content">
+              <div class="media">
+                <div class="media-content">
+                  <p class="title is-4 has-text-white">XenAPI</p>
+                </div>
+              </div>
+
+              <div class="content">
+                Simple Xenforo API for Java and PHP
+                <br><span class="tag is-danger is-rounded">Web</span><br><br>
+                <div class="field is-grouped">
+                  <p class="control">
+                    <a class="button is-danger" target="_blank" href="https://github.com/cadox8/XenAPI">
+                      <span class="icon"><i class="fas fa-gamepad"></i></span>
+                      <span>Deud</span>
+                    </a>
+                  </p>
+                </div>
+              </div>
+            </div><br /><br />
+          </div>
+        </div>
+
+      </div>
     </div>
 
     <br>
 
-    <div class="siimple-grid">
-      <div class="siimple-grid-row">
-        <div class="siimple-grid-col siimple-grid-col--1"><p></p></div>
-        <div class="siimple-grid-col siimple-grid-col--4 siimple-grid-col-sm--12 justify">
-            <div class="siimple-tip siimple-tip--teal"><div class="siimple-h4 centered">About Me</div></div>
-            <p class="siimple-p">
-                Hey! I'm cadox8 (Iván Rica) and you're at my website, yay!<br><br>
-
-                I'm a <strong>Java Developer</strong> focused on Minecraft Networks.<br>
-                I develop plugins for <a class="siimple-link" target="_blank" href="https://www.spigotmc.org/members/cadox8.30829/">Spigot</a>,
-                but you can also find me on <a class="siimple-link" href="https://github.com/cadox8" target="_blank">Github</a>.<br><br>
-
-                Also, I'm a <strong>Front-End Developer</strong>. Now, I'm developing a simple but powerfull forum software called
-                 <a class="siimple-link" href="https://github.com/cadox8/Kristine" target="_blank">Kristine</a>.<br><br>
-
-                The best way to contact me is via <a class="siimple-link" target="_blank" href="https://twitter.com/cadox8">Twitter</a> or <a class="siimple-link" href="mailto:cadox8@gmail.com">my email</a>.
-            </p>
-        </div>
-        <div class="siimple-grid-col siimple-grid-col--6 siimple-grid-col-sm--12 centered">
-            <div class="siimple-h2">Info</div><hr>
-            <div class="siimple-tip siimple-tip--yellow siimple-tip--exclamation" style="width: 50%; margin: auto;">Check my social accounts</div>
-            <a href="https://twitter.com/cadox8" target="_blank" class="siimple-btn siimple-btn--teal"><i class="fa fa-twitter"></i> Twitter</a>
-            <a href="https://github.com/cadox8" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-github"></i> Github</a>
-            <a href="https://keybase.io/cadox8" target="_blank" class="siimple-btn siimple-btn--orange"><i class="fa fa-key"></i> Keybase</a>
-            <br><br>
-            <div class="siimple-tip siimple-tip--blue siimple-tip--question" style="width: 50%; margin: auto;">See my animelist and email me!</div>
-            <a href="https://cadox8.keybase.pub" target="_blank" class="siimple-btn siimple-btn--navy"><i class="fa fa-key"></i> Keybase Web</a>
-            <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="siimple-btn siimple-btn--red"><i class="fa fa-television"></i> MyAnimeList</a>
-            <a href="mailto:cadox8@gmail.com?Subject=Hello" class="siimple-btn siimple-btn--purple"><i class="fa fa-envelope-o"></i> Mail me</a>
-            <br><br>
-            <div class="siimple-tip siimple-tip--red siimple-tip--heart" style="width: 50%; margin: auto;">Donate to support me</div>
-            <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'I2I258YD');kofiwidget2.draw();</script>
-            <a href="https://www.paypal.me/Cadox8" target="_blank" class="siimple-btn siimple-btn--blue"><i class="fa fa-paypal"></i> Donate</a>
-        </div>
-        <div class="siimple-grid-col siimple-grid-col--1"><p></p></div>
+    <div class="container" id="contact">
+      <h1 class="title center">Contact</h1><hr>
+      <div class="center">
+          <a href="https://twitter.com/cadox8" target="_blank" class="button is-info"><i class="fab fa-twitter"></i> <span class="network-name"> Twitter</span></a>
+          <a href="https://github.com/cadox8" target="_blank" class="button is-dark"><i class="fab fa-github"></i> <span class="network-name"> Github</span></a>
+          <a href="https://keybase.io/cadox8" target="_blank" class="button is-warning"><i class="fa fa-key"></i> <span class="network-name"> Keybase</span></a>
+          <a href="https://myanimelist.net/animelist/cadox8" target="_blank" class="button is-danger"><i class="fas fa-tv"></i> <span class="network-name"> MyAnimeList</span></a>
+          <a href="mailto:cadox8@gmail.com?Subject=Hello" target="_blank" class="button is-warning"><i class="far fa-envelope-open"></i> <span class="network-name"> Mail Me</span></a>
+          <a href="https://www.paypal.me/Cadox8" target="_blank" class="button is-info"><i class="fab fa-paypal"></i> Donate</a>
+          <script type='text/javascript' src='https://ko-fi.com/widgets/widget_2.js'></script><script type='text/javascript'>kofiwidget2.init('Buy Me a Coffee', '#46b798', 'I2I258YD');kofiwidget2.draw();</script>
       </div>
     </div>
 
@@ -103,25 +250,35 @@
 
     <!-- About -->
     <div class="container">
-        <div class="siimple-h2 centered">About Me</div>
-        <hr>
-        <div class="siimple-alert siimple-alert--gray centered">
-            Here you can check my Résumé and my CV:<br><br>
-            <a href="https://resume.github.io/?cadox8" target="_blank" class="siimple-btn siimple-btn--navy">Résumé</a>
-            <a href="https://github-profile-summary.com/user/cadox8" target="_blank" class="siimple-btn siimple-btn--red">Profile Summary</a>
-            <a href="https://github.com/cadox8/cadox8.github.io/blob/master/Curriculum%20vitae.pdf" target="_blank" class="siimple-btn siimple-btn--navy">CV</a>
-            <br><br><small>Mail me here: <a class="siimple-link" href="mailto:cadox8@gmail.com?Subject=Hello" class="button _danger">cadox8@gmail.com</a></small>
+        <h1 class="title center">Some more info</h1><hr>
+        <div class="center">
+          <div class="notification is-warning"><h6 class="subtitle is-6 center">Here you can check my Résumé and my CV:</h6></div>
+            <a href="https://resume.github.io/?cadox8" target="_blank" class="button is-info">Résumé</a>
+            <a href="https://profile-summary-for-github.com/user/cadox8" target="_blank" class="button is-danger">Profile Summary</a>
+            <a href="https://github.com/cadox8/cadox8.github.io/blob/master/Curriculum%20vitae.pdf" target="_blank" class="button is-dark">Curriculum Vitae</a>
         </div>
     </div>
 
     <!-- Footer -->
-    <div class="siimple-footer siimple-footer--navy siimple-footer--fluid" align="center">
-        <a class="siimple-link has-text-white" target="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fa fa-github"></i> I'm Open Source</a><br>
-        <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.
-        <br>&copy; 2018
-    </div>
+    <footer class="footer">
+      <div class="container">
+        <div class="content has-text-centered">
+          <p>
+            <atarget="_blank" href="https://github.com/cadox8/cadox8.github.io"><i style="color: black;" class="fab fa-github"></i> I'm Open Source</a><br>
+            <br><i style="color: blue" class="fa fa-code"></i> with <i style="color: purple" class="fa fa-heart"></i> by Cadox8.
+            <br>&copy; 2018
+          </p>
+        </div>
+      </div>
+    </footer>
 
     <!-- jQuery -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+
+    <!-- Cadox8 JS -->
+    <script src="js/cadox8.js"></script>
 </body>
 </html>
