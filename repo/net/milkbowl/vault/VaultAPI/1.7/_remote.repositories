@@ -1,0 +1,6 @@
+#NOTE: This is an Aether internal implementation file, its format can be changed without prior notice.
+#Wed Feb 13 16:55:31 CET 2019
+VaultAPI-1.7.pom>=
+VaultAPI-1.7.jar>=
+VaultAPI-1.7.pom>vault-repo=
+VaultAPI-1.7.jar>vault-repo=
