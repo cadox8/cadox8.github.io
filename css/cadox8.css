@@ -1,13 +1,4 @@
-.brand {
-  font-weight: bold;
-  background: -webkit-linear-gradient(#FE2EC8, #8A0886);
-  -webkit-text-fill-color: transparent;
-  -webkit-background-clip: text;
-}
 
-hr.dark {
-  background-color: gray;
-}
 
 .justify {
     text-align: justify;
